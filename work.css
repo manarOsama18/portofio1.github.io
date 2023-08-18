@@ -1,0 +1,23 @@
+*{
+    margin :0;
+    padding:0;
+    font-family: sans-serif;
+    background-color: #eff4fd;
+}
+.work{ 
+    text-align: center;
+    border-bottom: 2px;
+    padding:10px;
+    
+}
+.blockdes{
+padding: 3px;
+padding-top: 4px;
+margin-top: 4px;
+margin: 7px;
+display: block;
+text-align: center;
+border: 1px solid #333; /* Box border style */
+  box-sizing: border-box; /* Ensures border is included in width and height */
+  padding: 10px;
+}

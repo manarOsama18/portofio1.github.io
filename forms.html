@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form><fieldset><legend>personal Info.</legend>
+     <!--<label for="fname">First name</label>-->
+        <input type="text" placeholder="First name" required><br>
+        <label for="lname" required>Last name</label>
+        <input type="text" name="lname"><br><br>
+        <input type="password" placeholder="Password" required><br><br>
+        <input type="submit">
+        <input type="reset">
+    </fieldset>
+    </form>
+    <form>
+        <fieldset><legend>Languages to Choose</legend>
+<p>Choose your favorite web language</p>
+<input type ="radio" value="HTML" name="lang">HTML
+<input type ="radio" value="CSS" name="lang">CSS
+<input type ="radio" value="JAVASCRIPT" name="lang">JAVASCRIPT
+<br><br>
+<p>Choose your favorite web language</p>
+<input type ="checkbox" value="HTML" name="langs">HTML
+<input type ="checkbox" value="CSS" name="langs">CSS
+<input type ="checkbox" value="JAVASCRIPT" name="langs">JAVASCRIPT
+<br>
+<textarea rows="10" cols="100">Manar is love of my life</textarea><br>
+<button  onclick="alert('هبله')">click me!</button>
+</fieldset> </form>
+<form>
+    <fieldset><legend>Car Option</legend>
+        <select multiple size="2"><option value="volvo">volvo</option>
+            <option value="landcruiser" selected>landcruiser</option>
+            <option value="purshe">purshe</option></select>
+       <input list="browsers" placeholder="Enter" >
+            <datalist id="browsers">
+        <option value="firefox"></option>
+        <option value="opera"></option>
+        <option value="safari"></option>
+        <option value="chrome"></option></datalist> 
+    </fieldset> </form>
+</body>
+</html>
